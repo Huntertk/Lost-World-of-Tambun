@@ -11,8 +11,6 @@ import adminRouter from './routes/adminRoute.js'
 import bookingPlanRouter from './routes/bookingPlanRoute.js'
 import bookTypeOneDateRouter from './routes/bookTypeOneDateRoutes.js'
 import bookTypeTwoDateRouter from './routes/bookTypeTwoDateRoutes.js'
-import bookTypeThreeDateRouter from './routes/bookTypeThreeDateRoutes.js'
-import bookTypeFourDateRouter from './routes/bookTypeFourDateRoutes.js'
 
 
 
@@ -37,8 +35,6 @@ app.use("/api/v1/admin", adminRouter)
 app.use("/api/v1/bookingplan", bookingPlanRouter)
 app.use("/api/v1/booktype-one-dates-manage", bookTypeOneDateRouter)
 app.use("/api/v1/booktype-two-dates-manage", bookTypeTwoDateRouter)
-app.use("/api/v1/booktype-three-dates-manage", bookTypeThreeDateRouter)
-app.use("/api/v1/booktype-four-dates-manage", bookTypeFourDateRouter)
 
 app.use(express.static(path.join(__dirname, '/client/dist')))
 

@@ -7,7 +7,8 @@ const ManageDates = () => {
     <section className='manageDates'>
       <h1>Manages Dates</h1>
       <div className="btnContainer">
-        <Link to="/admin/manage-dates/booktype-one">99  Wonderland</Link>
+        <Link to="/admin/manage-dates/booktype-one">Full Day Ticket</Link>
+        <Link to="/admin/manage-dates/booktype-two">Night Park + Hotspring Ticket</Link>
       </div>
     </section>
   )

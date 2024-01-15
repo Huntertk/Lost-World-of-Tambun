@@ -124,10 +124,22 @@ const BookingDateConfirmation = () => {
                   console.log(error);
               }
           }
+          const getBookTypeTwoBlockDates = async () => {
+            try {
+                setIsLoading(true)
+                const {data} = await axios.get('/api/v1/booktype-two-dates-manage/block-dates')
+                setBlockedDates(data.blockDates)
+                setIsLoading(false)
+              } catch (error) {
+                  console.log(error);
+              }
+          }
         useEffect(() => {
             if(type === 'bookTypeOne'){
                 getBookTypeOneBlockDates()
                 
+            } else if(type === 'bookTypeTwo'){
+                getBookTypeTwoBlockDates()
             }
           },[])
 
