@@ -1,0 +1,50 @@
+{
+    "_id": "659f8a1fe02526eda450df50",
+    "image": [
+        "https://i.postimg.cc/cC1PfytV/Whats-App-Image-2024-01-09-at-13-17-41.jpg",
+        "https://i.postimg.cc/L68M1fzn/Whats-App-Image-2024-01-09-at-13-14-53.jpg",
+        "https://i.postimg.cc/7PVkhXJF/Whats-App-Image-2024-01-09-at-13-13-33.jpg",
+        "https://i.postimg.cc/zG9m6c4g/Whats-App-Image-2024-01-09-at-13-16-07.jpg"
+    ],
+    "title": "99 Wonderland Park",
+    "desc": "As the inaugural recreational park in Kuala Lumpur showcasing rare animals and birds, it provides a unique chance to witness nature's wonders up close. Revel in the harmonious fusion of captivating wildlife and breathtaking landscapes as you explore the enchanting surroundings of this park.",
+    "type": "bookTypeOne",
+    "preference": [
+        {
+            "title": "Malaysian",
+            "price": {
+                "weekend": {
+                    "adult": 65,
+                    "child": 40,
+                    "senior": 40
+                },
+                "weekday": {
+                    "adult": 45,
+                    "child": 25,
+                    "senior": 25
+                }
+            },
+            "details": [
+                "Valid only for Malaysian Citizens"
+            ]
+        },
+        {
+            "title": "Non-Malaysian",
+            "price": {
+                "weekend": {
+                    "adult": 90,
+                    "child": 60,
+                    "senior": 60
+                },
+                "weekday": {
+                    "adult": 70,
+                    "child": 40,
+                    "senior": 40
+                }
+            },
+            "details": [
+                "Valid only for Non Malaysian Citizens"
+            ]
+        }
+    ]
+}
