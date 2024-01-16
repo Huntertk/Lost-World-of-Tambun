@@ -157,7 +157,7 @@ export const addQues = [
         id: uuidv4(),
         ques:"Operating Hours ?",
         ans:[
-            "Themepark: Mon - Fri from 11 am - 11 pm Weekend  from 10 am - 11 pm",
+            "Themepark: 11am - 11pm (Mon - Fri) | 10am - 11pm (Sat - Sun)",
             "Close every Tuesday except Public and School holiday",
             "Lost World Night Park + Hot Springs opens daily at 6 pm - 11 pm"
         ]
@@ -166,8 +166,8 @@ export const addQues = [
         id: uuidv4(),
         ques:"Child Policy",
         ans:[
-            "Adult age is 12 to 59 years old.",
-            "Child age is  3 to 11 years old.",
+            "Adult age is 13 to 59 years old.",
+            "Child age is  3 to 12 years old.",
             "Below 90cm Free.",
             "Senior Citizen age 60 and above."
         ]
@@ -193,7 +193,8 @@ export const addQues = [
             "Lost World Hot Springs & Spa",
             "Lost World Petting Zoo by Night",
             "Ipoh Street",
-            "Flaming Percussion and Tarantula Alley",
+            "Flaming Percussion",
+            "Tarantula Alley"
         ]
     },
     {
