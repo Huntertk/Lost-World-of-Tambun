@@ -46,8 +46,10 @@
             .answer{
                 background-color: $primaryModalColor;
                 padding: 1rem;
-
-                li{
+                
+                div{
+                    display: flex;
+                    gap: 10px;
                     margin-top: 1rem;
                     margin-bottom: 1rem;
                 }

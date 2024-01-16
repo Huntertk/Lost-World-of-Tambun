@@ -135,7 +135,7 @@ export const cardHighLightsDetails = [
 export const thingsTodo = [
     {
         id: uuidv4(),
-        desc:"Experience thrilling and family-friendly rides at the Lost World Amusement Parkthat will get your adrenaline pumping.",
+        desc:"Experience thrilling and family-friendly rides at the Lost World Amusement Park that will get your adrenaline pumping.",
         image: "https://i.postimg.cc/Zq52fkM0/Lost-World-of-Tambun-Amusement-and-Water-Park-3640287b-11e2-4f9b-98d1-f01d432bffa9.jpg"
     },
     {
@@ -157,8 +157,7 @@ export const addQues = [
         id: uuidv4(),
         ques:"Operating Hours ?",
         ans:[
-            "Themepark: Mon - Fri from 11 am - 11 pm",
-            "Themepark: Weekend  from 10 am - 11 pm",
+            "Themepark: Mon - Fri from 11 am - 11 pm Weekend  from 10 am - 11 pm",
             "Close every Tuesday except Public and School holiday",
             "Lost World Night Park + Hot Springs opens daily at 6 pm - 11 pm"
         ]
@@ -183,7 +182,7 @@ export const addQues = [
             "Lost World Tiger Valley",
             "Lost World Petting Zoo",
             "Lost World Adventure Park",
-            "Lost WorldNight park with Hotspring",
+            "Lost World Night park with Hotspring",
         ]
     },
     {

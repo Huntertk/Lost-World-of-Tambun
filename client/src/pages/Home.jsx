@@ -12,6 +12,7 @@ import {
 import ThingsTodo from '../components/ThingsTodo'
 import { initialRender } from '../features/booking/bookingSlice'
 import {useDispatch} from 'react-redux'
+import TourMap from '../components/TourMap'
 
 const Home = () => {
   const dispatch = useDispatch()
@@ -27,6 +28,7 @@ const Home = () => {
       <HomeWhyVisit />
       <HomeHighlights />
       <ThingsTodo />
+      <TourMap />
       <HomeAdditionalInformation />
       <HomeMap />
       <HomeFaq />

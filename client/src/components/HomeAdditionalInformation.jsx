@@ -19,7 +19,13 @@ const QuestionContainer = ({data}) => {
             </div>
             {
                 isModalOpen && <div className="answer">
-                    {data.ans.map((li, i) => <li key={i}>{li}</li>)}
+                    {data.ans.map((li, i) => (
+                    <div key={i}>
+                        <span>●</span>
+                        <span>{li}</span>
+                        </div>
+                    )
+                    )}
                 </div>
             }
                 
