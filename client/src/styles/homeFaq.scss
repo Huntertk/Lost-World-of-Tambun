@@ -52,6 +52,10 @@
                     gap: 10px;
                     margin-top: 1rem;
                     margin-bottom: 1rem;
+
+                    span{
+                        font-size: 0.9rem;
+                    }
                 }
 
                 p{
@@ -75,7 +79,19 @@
                         justify-content: space-between;
                        
                     }
+
+
+                    .answer{
+                        div{
+                            span{
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+        
                 }
+
+
             }
         }
 }
